@@ -48,7 +48,6 @@ public class TestClass_001 extends BaseClass {
     String screenshotpath = BaseClass.captureScreen();
     test.addScreenCaptureFromPath(screenshotpath);
     
-    test.log(Status.PASS, "clicked on login button");
 
     } 
 }
